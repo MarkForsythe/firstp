@@ -1,11 +1,33 @@
 $navbarBackgroundHighlight: black;
 @import url('http://fonts.googleapis.com/css?family=Oxygen');
-body {
-	font-family: Oxygen, serif;
+* {
+	font-family: 'Oxygen', serif;
 }
 
 @import 'bootstrap';
 .footer {
-	margin-top: 50px;
+	margin-top: 500px;
 	
 	}
+
+.container {
+	margin-top: 60px;
+}	
+
+.auction {
+	margin-top: 50px;
+	height: 150px;
+	background-color: black;
+}
+
+
+#goup20px {
+	margin-top: -30px;
+}
+
+.btn-large {
+	margin-top: 5px;
+}
+
+
+
