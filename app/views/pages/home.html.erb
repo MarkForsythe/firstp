@@ -11,11 +11,11 @@
 <% if user_signed_in? %>
 	<div class="jumbotron col-md-8">
 		<h3 id="goup20px">Auctions</h3>
-		<div class="col-md-3 auction">
+		<div class="col-md-3 auction"></div>
 	</div>
 <% else %>
 	<div class="jumbotron col-md-8">
-		<h3 id="goup20px">Loftybid is an online bidding game that's loads of fun!</h3>
+		<h3 id="goup20px">Loftybid is an online bidding game.</h3>
 		<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-large" %>
 	</div>
 <% end %>
